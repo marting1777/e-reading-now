@@ -1,19 +1,19 @@
 import React, { Component } from 'react'
-import classes from './Blog.css'
+import classes from './Contact.css'
 
 import Title from '../UI/Title/Title'
 import Container from '../UI/Container/Container'
 
-class Blog extends Component {
+class Contact extends Component {
 
     state = {
-        text: 'Blog'
+        text: 'Contact'
     }
 
     render () {
         return (
             <Container>
-                <div className={classes.Blog}>
+                <div className={classes.Contact}>
                     <Title title={this.state.text}/>
                 </div>
             </Container>
@@ -21,4 +21,4 @@ class Blog extends Component {
     }
 }
 
-export default Blog
+export default Contact
