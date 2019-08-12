@@ -1,0 +1,21 @@
+button {
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-align: center;
+    width: auto;
+    height: 3.5em;
+    transition: all 0.4s ease-in-out;
+    text-decoration: none;
+    padding: 0 1.75em;
+    z-index: 10;
+    border: 0px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    -webkit-transform: scale(1.03,1.08);
+    transform: scale(1.03,1.08);
+}
+
