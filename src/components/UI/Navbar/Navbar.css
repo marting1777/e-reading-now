@@ -1,0 +1,33 @@
+.Navbar {
+    width: 100%;
+    height: 85px;
+    position: fixed;
+    top: 0;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.Nav {
+    float: right;
+}
+
+.Nav ul {
+    padding-top: 13px;
+}
+
+.Nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding-right: 30px;
+}
+
+.Nav ul li a {
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000000;
+}
+
+.Nav ul li a:hover, 
+.Nav ul li a:active {
+    color: orangered;
+}
